@@ -1,0 +1,119 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* banner start here*/
+.banner-content-item h1, h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.b-divider {
+    border: 1.5px solid #ef0d33;
+    margin: 20px auto;
+}
+.banner-content p {
+    font-size: 16px;
+    margin: 20px 0px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.banner-button {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.banner-button a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 39px;
+}
+.banner-icon {
+    transform: translate(-50%,-117%);
+}
+.banner-icon i {
+    font-size: 60px;
+}
+.single-item-img {
+    margin-top: 35px;
+}
+.single-item-img img {
+     margin: 0px 0px;/
+}
+/* banner end here*/
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*banner start here*/
+.banner-content-item h1, h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.b-divider {
+    border: 2px solid #ef0d33;
+    margin: 25px auto;
+}
+.banner-content p {
+    font-size: 16px;
+    text-align: center;
+}
+.banner-button {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.banner-button a {
+    font-size: 16px;
+    padding: 12px;
+}
+ .banner-icon {
+    transform: translate(-50%,-117%);
+}
+.banner-icon i {
+    font-size: 60px;
+}
+.single-item-img {
+    margin-top: 30px;
+}
+/*banner end here*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*banner start here*/
+.banner-content-item h1, h2 {
+    font-size: 45px;
+}
+    .b-divider {
+    border: 2px solid #ef0d33;
+}
+.banner-content p {
+    font-size: 17px;
+}
+.banner-button a {
+    font-size: 16px;
+}
+.banner-icon i {
+    font-size: 90px;
+}
+/*    banner footer content start here*/
+.b-footer-content, .single-item-img {
+    margin-top: 30px;
+}
+.b-footer-content p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+ .single-item-img img {
+     margin: 0px 0px; 
+}
+    
+/*    banner footer content end here*/
+/*banner end here*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+}
